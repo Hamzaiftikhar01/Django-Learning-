@@ -10,3 +10,6 @@ Django never stores raw passwords. It uses secure-by-default PBKDF2 hashing with
 
 ## 3. Granular Group and Permission System
 Django includes an intuitive permission system that associates permissions with models. It allows assigning permissions to specific users or to user groups (e.g., editors, customers, administrators). Views can then easily enforce these permissions via helper decorators like `@permission_required` or mixins like `PermissionRequiredMixin`.
+
+## 4. Pluggable Authentication Backends
+Django allows developers to authenticate users against external services (like LDAP, Active Directory, or third-party OAuth providers like Google and GitHub) by creating or configuring custom authentication backends. The `AUTHENTICATION_BACKENDS` setting accepts a list of backends, which Django checks sequentially until one succeeds.
