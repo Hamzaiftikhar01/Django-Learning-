@@ -13,3 +13,6 @@ Django includes an intuitive permission system that associates permissions with 
 
 ## 4. Pluggable Authentication Backends
 Django allows developers to authenticate users against external services (like LDAP, Active Directory, or third-party OAuth providers like Google and GitHub) by creating or configuring custom authentication backends. The `AUTHENTICATION_BACKENDS` setting accepts a list of backends, which Django checks sequentially until one succeeds.
+
+## 5. Instant Admin Interface Integration
+Django's admin site integrates seamlessly with the built-in authentication models. Without writing any extra code, you get a fully functional, secure web interface to manage users, reset/change passwords, assign permissions, and group users together.
