@@ -24,3 +24,7 @@ Learn how to create new users securely using Django's UserCreationForm, includin
 ## 7. Login & Logout
 
 Understand Django's built-in authentication views and functions for signing users in and out using sessions.
+
+8. Sessions & Authentication State
+
+Learn how Django remembers authenticated users across requests using sessions and request.user.
