@@ -20,3 +20,7 @@ Django's admin site integrates seamlessly with the built-in authentication model
 ## 6. User Registration
 
 Learn how to create new users securely using Django's UserCreationForm, including password validation and account creation.
+
+## 7. Login & Logout
+
+Understand Django's built-in authentication views and functions for signing users in and out using sessions.
