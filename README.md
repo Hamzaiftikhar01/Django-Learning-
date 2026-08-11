@@ -16,3 +16,7 @@ Django allows developers to authenticate users against external services (like L
 
 ## 5. Instant Admin Interface Integration
 Django's admin site integrates seamlessly with the built-in authentication models. Without writing any extra code, you get a fully functional, secure web interface to manage users, reset/change passwords, assign permissions, and group users together.
+
+## 6. User Registration
+
+Learn how to create new users securely using Django's UserCreationForm, including password validation and account creation.
